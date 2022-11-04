@@ -15,6 +15,7 @@ module.exports = {
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader',
+                    // below syntax is for babel 6
                     options: {
                         presets: ["@babel/preset-env"]
                     }
@@ -22,7 +23,6 @@ module.exports = {
 
                     // notify webpack, files with side effects (shift it to package.json if using babel 7)
                     // "side-effects": false,
-
 
                     // below syntax is for babel 5
                     // options: {

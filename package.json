@@ -2,6 +2,7 @@
   "name": "react-app",
   "version": "1.0.0",
   "description": "",
+  "side-effects": false,
   "main": "index.js",
   "scripts": {
     "serve": "webpack serve --mode development",
